@@ -1,0 +1,6 @@
+name: Deploy Stage
+
+on:
+  push:
+    branches:
+      - stage

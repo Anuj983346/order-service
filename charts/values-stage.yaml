@@ -1,0 +1,8 @@
+replicaCount: 2
+
+image:
+  repository: anuj983346/order-service
+  tag: stage
+
+env:
+  SPRING_PROFILES_ACTIVE: stage
