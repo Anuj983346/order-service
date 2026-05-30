@@ -1,0 +1,12 @@
+replicaCount: 1
+
+image:
+  repository: anujpal/order-service
+  tag: latest
+
+service:
+  type: ClusterIP
+  port: 8082
+
+env:
+  SPRING_PROFILES_ACTIVE: dev

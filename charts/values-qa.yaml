@@ -1,0 +1,8 @@
+replicaCount: 2
+
+image:
+  repository: anujpal/order-service
+  tag: qa
+
+env:
+  SPRING_PROFILES_ACTIVE: qa
