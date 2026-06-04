@@ -20,4 +20,9 @@ public class OrderController {
                 request
         );
     }
+
+    @GetMapping
+    public String getOrders(){
+        return "Response from order Service";
+    }
 }
